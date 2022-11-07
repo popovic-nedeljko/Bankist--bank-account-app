@@ -1,0 +1,23 @@
+{
+  "name": "bankist-bank-account-app",
+  "version": "1.0.0",
+  "description": "Bankist-Udemy javaScript course",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "node-sass": "^7.0.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
